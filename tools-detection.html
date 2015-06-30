@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html style="background-color: black;" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html style="background-color: black;" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html style="background-color: black;" class="no-js lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html style="background-color: black;" class="no-js lte-ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html style="background-color: black;" class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Dolby Developer</title>
+<meta name="description" content="Dolby Developers">
+<meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1, user-scalable=no"/>
+<link rel="stylesheet" href="css/main.css">
+<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body class="tools-tech" lang="en">
+<!--[if lt IE 7]>
+      <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+   <![endif]-->
+<div class="header-container headroom">
+  <div class="search-panel">
+    <div class="section-centered">
+      <button class="closebtn"></button>
+      <form class="searchform" action="search-results.html">
+        <div class="search-holder">
+          <input class="searchbox search-field" data-value="Search..." value="Search..." type="text" />
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="alert-bar active">
+    <div class="section-centered"> <a href="tour-the-lab-individual.html" class="thelink"> <span class="message"> <strong>NEW RELEASE:</strong> The Developer API is now available for XBOX, Playstation, Wii, and PC gaming. </span> <span class="learn-more">learn more</span> </a> <a href="#" class="close-btn">
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
+        <path d="M29.969,30.068"/>
+        <polygon points="31.912,28.077 19.791,15.958 31.875,3.874 28.117,0.116 16.034,12.2 3.88,0.047 0.123,3.805 12.275,15.959
+               0.088,28.147 3.846,31.904 16.033,19.718 28.152,31.836 "/>
+      </svg>
+      </a> </div>
+  </div>
+  <div class="site-header">
+    <div class="section-centered clearfix">
+      <div class="logo"><a href="index.html"><span>Developer</span></a></div>
+      <div class="nav-holder">
+        <ul class="site-nav">
+          <li><a class="toolstech" href="tools-tech.html">tools &amp; tech</a></li>
+          <li><a class="partners" href="partners.html">partners</a></li>
+          <li><a class="tour" href="tour-the-lab.html">updates</a></li>
+          <li><a class="support" href="support.html">support</a></li>
+          <li><a class="blog" href="http://blog.dolby.com/">blog</a></li>
+        </ul>
+      </div>
+      <div class="tools">
+        <div class="user-box"> <a href="#" class="user-btn"><img src="img/christopher.png" /><span>Christopher</span><i></i></a>
+          <ul class="user-menu">
+            <li class="my-account"><a href="profile.html">My Account</a></li>
+            <li class="second-thing"><a href="promote.html">Submit my app</a></li>
+            <li class="logout"><a href="#">Log out</a></li>
+          </ul>
+        </div>
+        <div class="search-focus"></div>
+        <a href="#" class="search-btn">
+        <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="22px" viewBox="0 0 28 22" enable-background="new 0 0 28 22" xml:space="preserve">
+          <path d="M17.279,16.739l-0.093-0.094l0,0l-3.71-3.71c0.516-0.888,0.814-1.917,0.822-3.018
+                  c0.021-3.368-2.691-6.117-6.06-6.138c-0.014,0-0.027,0-0.041,0c-3.349,0-6.075,2.705-6.097,6.06
+                  c-0.022,3.369,2.691,6.116,6.06,6.136c0.013,0,0.026,0,0.04,0c1.119,0,2.169-0.302,3.071-0.829l3.707,3.706l0,0l0.093,0.093
+                  c0.281,0.28,0.735,0.28,1.016,0l1.192-1.192C17.56,17.474,17.56,17.02,17.279,16.739z M8.171,14.422
+                  c-2.505-0.017-4.53-2.067-4.514-4.572C3.673,7.361,5.71,5.336,8.198,5.335h0.031c1.214,0.008,2.352,0.488,3.204,1.352
+                  c0.853,0.863,1.318,2.007,1.311,3.221c-0.008,1.208-0.485,2.343-1.342,3.195c-0.857,0.851-1.994,1.319-3.201,1.319H8.171z" />
+        </svg>
+        </a>
+        <div class="divider"></div>
+        <a href="signup.html" class="signup">sign up</a> <a href="login.html" class="login">login</a> </div>
+      <a href="#" class="mobile-menu">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      </a> </div>
+    <div class="mobile-nav">
+      <form class="mobile-searchform" action="search-results.html">
+        <input class="searchbox" type="text" />
+      </form>
+      <ul>
+        <li><a href="tools-tech.html">tools &amp; tech<span></span></a></li>
+        <li><a href="partners.html">partners<span></span></a></li>
+        <li><a href="tour-the-lab.html">updates<span></span></a></li>
+        <li><a href="support.html">support<span></span></a></li>
+        <li class="loggedout"><a href="login.html">login<span></span></a></li>
+        <li class="loggedout"><a href="signup.html" class="signup">sign up<span></span></a></li>
+        <li class="loggedin"><a href="profile.html">my account<span></span></a></li>
+        <li class="loggedin"><a href="promote.html">submit my app<span></span></a></li>
+        <li class="loggedin"><a href="#" onclick="return false;">logout<span></span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="social-buttons clearfix"> 
+    
+    <!-- Linked in --> 
+    <a href="#" class="linked">
+    <figure>
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="18px" height="18px" viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve">
+        <path d="M25.424,15.887v8.447h-4.896v-7.882c0-1.979-0.709-3.331-2.48-3.331c-1.354,0-2.158,0.911-2.514,1.803
+		            c-0.129,0.315-0.162,0.753-0.162,1.194v8.216h-4.899c0,0,0.066-13.349,0-14.731h4.899v2.088c-0.01,0.016-0.023,0.032-0.033,0.048
+		            h0.033V11.69c0.65-1.002,1.812-2.435,4.414-2.435C23.008,9.254,25.424,11.361,25.424,15.887z M5.348,2.501
+		            c-1.676,0-2.772,1.092-2.772,2.539c0,1.421,1.066,2.538,2.717,2.546h0.032c1.709,0,2.771-1.132,2.771-2.546
+		            C8.054,3.593,7.019,2.501,5.343,2.501H5.348z M2.867,24.334h4.897V9.603H2.867V24.334z"/>
+      </svg>
+    </figure>
+    <em></em> <span>Link<i></i></span> </a> 
+    
+    <!-- Twitter --> 
+    <a href="#" class="twit">
+    <figure>
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	             width="18px" height="18px" viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve">
+        <path d="M24.253,8.756C24.689,17.08,18.297,24.182,9.97,24.62c-3.122,0.162-6.219-0.646-8.861-2.32
+	            c2.703,0.179,5.376-0.648,7.508-2.321c-2.072-0.247-3.818-1.661-4.489-3.638c0.801,0.128,1.62,0.076,2.399-0.155
+	            C4.045,15.72,2.215,13.6,2.115,11.077c0.688,0.275,1.426,0.407,2.168,0.386c-2.135-1.65-2.729-4.621-1.394-6.965
+	            C5.575,7.816,9.54,9.84,13.803,10.071c-0.842-2.739,0.694-5.64,3.434-6.482c2.018-0.623,4.212,0.044,5.546,1.683
+	            c1.186-0.213,2.318-0.662,3.329-1.317c-0.385,1.256-1.247,2.312-2.399,2.942c1.048-0.106,2.069-0.394,3.019-0.851
+	            C26.275,7.229,25.39,8.196,24.253,8.756z"/>
+      </svg>
+    </figure>
+    <em></em><span>Tweet<i></i></span> </a> 
+    
+    <!-- Facebook --> 
+    <a href="#" class="fb">
+    <figure>
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				 width="18px" height="18px" viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve">
+        <path d="M10.438,25.544V15.098H7.059V10.49h3.379V8.695c0-3.089,2.335-5.885,5.191-5.885h3.719v4.608h-3.727
+				c-0.408,0-0.884,0.492-0.884,1.236v1.836h4.609v4.608h-4.609v10.446H10.438z"/>
+      </svg>
+    </figure>
+    <em></em><span>Share<i></i></span></a> </div>
+  <div class="signin-modal">
+    <div class="login-content">
+      <div class="signin-version">
+        <div class="login-box forgot-pw">
+          <header class="top-bar">
+            <h2>Login Required</h2>
+            <a href="#" class="close-btn"><span></span></a> </header>
+          <div class="message">
+            <p>You must have a Dolby Developer account to access that content. Log in below to continue. Don’t have an account? Fear not! Creating an account is free and easy!</p>
+          </div>
+          <div class="action-btns clearfix"> <a href="login.html" class="login-btn">Log In</a> <a href="signup.html" class="signup-btn"><span></span>Sign Up Free</a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="upload-modal">
+    <div class="login-content">
+      <div class="signin-version">
+        <div class="login-box forgot-pw">
+          <header class="top-bar">
+            <h2>Upload Avatar</h2>
+            <a href="#" class="close-btn"><span></span></a> </header>
+          <div class="login-fields forgot-fields">
+            <div class="fields-box">
+              <div class="row email">
+                <input id="avatarImg" type="file" class="avatar-img" placeholder="Choose image" data-init="Choose img" />
+              </div>
+            </div>
+            <div class="error"> <span>Please enter a valid email address.</span> </div>
+          </div>
+          <div class="action-btns clearfix">
+            <input type="submit" value="Upload" />
+            <a href="#" class="cancel-btn">Cancel</a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Main tools and tech starts here --> 
+  
+  <!-- akumina-change added h1 -->
+  <h1>Pure Dolby<span class="reg">&reg;</span> Audio. On any platform.</h1>
+  <div class="tools-content">
+    <div id="codeSection" class="page-section active">
+      <div class="platform-wrapper"> 
+        
+        <!-- platform switching -->
+        
+        <div class="test-tab switch-tab active">
+          <div class="interior-wrap clearfix">
+            <nav class="jumpnav">
+              <ul class="page-jump clearfix">
+                <li><a class="active" href="#test_scan">Scan</a></li>
+                <li><a href="#test_browsers">Browser Support</a></li>
+                <li><a href="#test_codeSnippet">Code Snippet</a></li>
+              </ul>
+            </nav>
+            <div class="platform-content">
+              <div class="copy">
+                <h1 id="test_scan">DOLBY Audio Browser Validator</h1>
+              </div>
+              <p>Press the start button to see if your web browser supports Dolby Audio.</p>
+              <div id="scanWindow">
+                <div id="hasSupport">
+                  <div class="icon"></div>
+                  No Dolby Audio Support</div>
+                <div id="scanButton">
+                  <canvas id="canvas" class="startScan" width="117" height="125" style="background-color:#FFFFFF"></canvas>
+                </div>
+                <div id="startTest">Start Test</div>
+                <div id="scanning">Scanning...</div>
+                <div id="output">
+                  <div id="system"></div>
+                  <div id="codecs"></div>
+                </div>
+              </div>
+              <h4>What is ec-3 and ac-3?</h4>
+              <p>Dolby Digital Plus, or Enhanced AC-3 (E-AC-3), is an advanced audio codec designed specifically for evolving media. It can be used in smartphone apps, online streaming services, PCs, tablets, smartphones and home theaters. Dolby Digital Plus defines high-fidelity audio even at low bit rates, employing exclusive compression algorithms to efficiently reduce the file size of digital audio programs. This allows for easier transmission and storage while delivering multichannel capability to bandwidth-constrained applications, mobile networks, and Internet-delivered entertainment.</p>
+              <h3 id="test_browsers">Browser Support</h3>
+              <p>Below is a list of current browsers (June 1, 2015) and how they report their ability to playback Dolby ec-3 files. Notice how some browsers use “True” and “False” while other report “No” or “Maybe”.</p>
+              <div class="snippet-wrapper ">
+                <nav class="snippet clearfix">
+                  <ul>
+                    <li><a class="windows active" href="#">Windows 10</a></li>
+                    <li><a class="osx" href="#">OS X</a></li>
+                    <li><a class="ios" href="#">iOS</a></li>
+                    <li><a class="android" href="#">Android</a></li>
+                  </ul>
+                </nav>
+                <!--  end snippet subnav -->
+                <div class="snippet clearfix">
+                  <div class="windows-tab tab-container active">
+                    <div class="specs">
+                      <table>
+                        <tbody>
+                          <tr class="header">
+                            <th>&nbsp;</th>
+                            <th class="format-support">Probably</th>
+                            <th class="codec-support">Maybe</th>
+                            <th class="audio-enhance">Supports Dolby Audio</th>
+                          </tr>
+                          <tr>
+                            <td>Microsoft Edge</td>
+                            <td class="yep2"><span>True</span></td>
+                            <td class="yep2"><span>True</span></td>
+                            <td class="yep"><span>&#10003;</span></td>
+                          </tr>
+                          <tr>
+                            <td>Chrome 43</td>
+                            <td class="nope2"><span>False </span></td>
+                            <td class="yep2"><span>True</span></td>
+                            <td class="nope"><span>&#10007;</span></td>
+                          </tr>
+                          <tr>
+                            <td>Firefox 38</td>
+                            <td class="nope2"><span>No</span></td>
+                            <td class="nope2"><span>False</span></td>
+                            <td class="nope"><span>&#10007;</span></td>
+                          </tr>
+                          <tr>
+                            <td>Internet Explorer 11</td>
+                            <td class="nope2"><span>False </span></td>
+                            <td class="yep2"><span>True</span></td>
+                            <td class="nope"><span>&#10007;</span></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="osx-tab tab-container ">
+                    <div class="specs">
+                      <table>
+                        <tbody>
+                          <tr class="header">
+                            <th>&nbsp;</th>
+                            <th class="format-support">Probably</th>
+                            <th class="codec-support">Maybe</th>
+                            <th class="audio-enhance">Supports Dolby Audio</th>
+                          </tr>
+                          <tr>
+                            <td>Safari 8*</td>
+                            <td class="yep2"><span>True</span></td>
+                            <td class="yep2"><span>True</span></td>
+                            <td class="nope"><span>&#10007;</span></td>
+                          </tr>
+                          <tr>
+                            <td>Chrome 43</td>
+                            <td class="nope2"><span>False </span></td>
+                            <td class="yep2"><span>True</span></td>
+                            <td class="nope"><span>&#10007;</span></td>
+                          </tr>
+                          <tr>
+                            <td>Firefox 38</td>
+                            <td class="nope2"><span>No</span></td>
+                            <td class="nope2"><span>False</span></td>
+                            <td class="nope"><span>&#10007;</span></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <p>&nbsp;&nbsp;* Safari 8 falsely reports it can play Dolby.</p>
+                    </div>
+                  </div>
+                  <div class="ios-tab tab-container ">
+                    <div class="specs">
+                      <table>
+                        <tbody>
+                          <tr class="header">
+                            <th>&nbsp;</th>
+                            <th class="format-support">Probably</th>
+                            <th class="codec-support">Maybe</th>
+                            <th class="audio-enhance">Supports Dolby Audio</th>
+                          </tr>
+                          <tr>
+                            <td>Safari 8.3</td>
+                            <td class="nope2"><span>Maybe</span></td>
+                            <td class="nope2"><span>False</span></td>
+                            <td class="nope"><span>&#10007;</span></td>
+                          </tr>
+                          <tr>
+                            <td>Chrome 43</td>
+                            <td class="nope2"><span>Maybe</span></td>
+                            <td class="nope2"><span>False</span></td>
+                            <td class="nope"><span>&#10007;</span></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="android-tab tab-container ">
+                    <div class="specs">
+                      <table>
+                        <tbody>
+                          <tr class="header">
+                            <th>&nbsp;</th>
+                            <th class="format-support">Probably</th>
+                            <th class="codec-support">Maybe</th>
+                            <th class="audio-enhance">Supports Dolby Audio</th>
+                          </tr>
+                          <tr>
+                            <td>Chrome</td>
+                            <td class="nope2"><span>False</span></td>
+                            <td class="yep2"><span>True</span></td>
+                            <td class="nope"><span>&#10007;</span></td>
+                          </tr>
+                          <tr>
+                            <td>Firefox</td>
+                            <td class="nope2"><span>No</span></td>
+                            <td class="nope2"><span>False</span></td>
+                            <td class="nope"><span>&#10007;</span></td>
+                          </tr>
+                          <tr>
+                            <td>Amazon Silk (OS 4+)</td>
+                            <td class="nope2"><span>False</span></td>
+                            <td class="yep2"><span>True</span></td>
+                            <td class="nope"><span>&#10007;</span></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <!--  end snippet --> 
+              </div>
+              <h3 id="test_codeSnippet">Code Snippet</h3>
+              <p>Use this javascript detection function test whether the browser supports Dolby Audio.</p>
+              <pre class="prettyprint linenums">
+function DolbyTest() {
+    // Check for Safari 8, as it will falsely report it can play back Dolby audio
+    var is_safari = false;
+    if ( navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Version/8.0') != -1 ) { 
+        is_safari = true; 
+    }
+    // Add a video element to the page
+    var testEl = document.createElement( "video" );
+    // Run the test
+    if ( testEl.canPlayType && !is_safari ) { 
+        return ( ( 'probably' === testEl.canPlayType('video/mp4;codecs="ec-3"') ) );  // Supports Dolby Audio
+    } else {
+        return false; // Dolby Audio Not Supported
+    }
+}</pre>
+              <p>If it canPlayType, then display the Dolby version of the video. If not, then serve a stereo backup.</p>
+              <p>The media type tested for is MPEG-4 video using the Enhanced AC-3 codec: 'video/mp4;codecs="ec-3"'. Only browsers that report that they can 'probably' play this media pass the test. This is the strongest response possible. Some browsers return "maybe", indicating that they may be able to play the media, but in our tests, they could not. A response of 'maybe' does not pass the test.</p>
+              <p>&nbsp;</p>
+              <video id="testElement" style="display:none"></video>
+              <style>
+			  	<!--
+				#scanWindow { background:#ffffff; border:1px solid #e0e0e0; padding:20px; overflow:hidden; height:125px; position: relative; }
+				#scanButton { width:130px; float:left; top:8px;  }
+				#scanButton:hover { cursor:pointer; }
+				#startTest, #scanning { font-size: 24px; line-height: 1.2em; margin-top: 45px; }
+				#system { margin-bottom:10px; }
+				#output, #scanning { max-width:450px; float:left; display:none; }
+				.tools-content .switch-tab h4 { color:#128b98; font-family: "Gustan Bold", arial, sans-serif; }
+				.tab-container .specs { margin-top:30px; }
+				.tools-content .specs table { width:96%; margin:0 auto 20px; }
+				.tools-content .specs table .header th { text-align:center; padding: 12px 18px 15px; }
+				.tools-content .specs table tr td:first-child { font-size: 16px; font-size: 1.5rem; vertical-align: middle; }
+				.yep2 { color: #2bc3a3; font-family: "Gustan Bold", arial, sans-serif; }
+				.tools-content .specs table .header .format-support { background-color: #b21f6e; }
+				.tools-content .specs table .header .audio-enhance { background-color: #90c14d; }
+				#hasSupport { display:none; background:#b21f6e; color:#ffffff; font-size: 14px; font-family: "Gustan Bold", arial, sans-serif; position: absolute; right: 0px; top: 0px; width: 100px; height: 65px; text-align: center; padding: 100px 5px 0; }
+				#hasSupport.isSupported { background:#90c14d; }
+				#hasSupport div.icon { height: 35px; width: 100%; margin-top: -30px; background:#b21f6e url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDYxMiA3OTIiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYxMiA3OTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJCTxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSI5IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgeDE9IjI5Mi45IiB5MT0iNDEwLjQiIHgyPSIzMTkuOSIgeTI9IjM4MS45Ii8+DQoJCTxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSI5IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgeDE9IjI5Mi4xIiB5MT0iMzgyLjciIHgyPSIzMjAuNiIgeTI9IjQwOS43Ii8+DQo8L2c+DQo8L3N2Zz4=') center -135px no-repeat; background-size: 250%; }
+				#hasSupport.isSupported div.icon { height: 35px; width: 100%; margin-top: -30px; background:#90c14d url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDYxMiA3OTIiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYxMiA3OTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBvbHlsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSI5IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHBvaW50cz0iMjg1LjQsMzk1LjUgMjk5LjksNDA5LjIgMzI2LjksMzgwLjcgIi8+DQo8L3N2Zz4=') center -135px no-repeat; background-size: 250%; }
+				.snippet-wrapper nav.snippet ul li a { padding:12px 30px; }
+				@media only screen and (max-width: 767px) {
+					.snippet-wrapper nav.snippet ul li a { padding: 10px 0; }
+					.tools-content .specs table td:nth-of-type(2):before { content: "Probably"; }
+					.tools-content .specs table td:nth-of-type(3):before { content: "Maybe"; }
+					.tools-content .specs table td:nth-of-type(4):before { content: "Supports Dolby Audio"; }
+				}
+				@media only screen and (max-width: 480px) {
+					#scanWindow { height:auto; text-align:center; overflow:auto; } 
+					#scanButton { width: 110px; float:none; margin: 0 auto; }
+					#startTest, #scanning { margin-top: 5px; text-align:center; width:100%; }
+					#output { margin-bottom: 60px; }
+					#hasSupport { left: 0px; top:auto; bottom: 0px; width: 100%; height: 65px; text-align: center; padding: 0; }
+					#hasSupport div.icon { margin-top: 0; background:#b21f6e url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDYxMiA3OTIiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYxMiA3OTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJCTxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSI5IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgeDE9IjI5Mi45IiB5MT0iNDEwLjQiIHgyPSIzMTkuOSIgeTI9IjM4MS45Ii8+DQoJCTxsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSI5IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgeDE9IjI5Mi4xIiB5MT0iMzgyLjciIHgyPSIzMjAuNiIgeTI9IjQwOS43Ii8+DQo8L2c+DQo8L3N2Zz4=') center -205px no-repeat; background-size: 100%; }
+					#hasSupport.isSupported div.icon { margin-top: 0; background:#90c14d url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDYxMiA3OTIiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYxMiA3OTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBvbHlsaW5lIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSI5IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHBvaW50cz0iMjg1LjQsMzk1LjUgMjk5LjksNDA5LjIgMzI2LjksMzgwLjcgIi8+DQo8L3N2Zz4=') center -205x no-repeat; background-size: 100%; }
+				}
+				-->
+			  </style>
+              <script src="//code.jquery.com/jquery-1.11.3.min.js"></script> 
+              <script src="//code.createjs.com/easeljs-0.7.1.min.js"></script> 
+              <script src="//code.createjs.com/tweenjs-0.5.1.min.js"></script> 
+              <script src="//code.createjs.com/movieclip-0.7.1.min.js"></script> 
+              <script type="text/javascript">
+			  <!--
+				jQuery(function ($){
+					  var testElement;
+					  function init() {
+						testElement = $('#testElement').get(0);
+						runTests();
+					  }
+					  function runTests() {
+						$('#system').html("");
+						var userAgent = navigator.userAgent;
+						userAgent = userAgent.replace(/\)/g, ")<br />");
+						$('#system').html(userAgent);
+						$('#codecs').html('video/mp4; codecs="ec-3" : no - false<br />video/mp4; codecs="ac-3" : no - false');
+						$('#hasSupport').addClass('notSupported');
+						runTest('video/mp4;codecs="ec-3"');
+						runTest('video/mp4;codecs="ac-3"');
+						var hassSupport = DolbyTest();
+						if (hassSupport) { $('#hasSupport').removeClass().addClass('isSupported').html('<div class="icon"></div>Supports Dolby Audio'); }
+					  }
+					  var rev = 0;
+					  function runTest( codec ) {
+						if (rev == 0) { $('#codecs').html(''); }
+						rev = rev + 1;
+						var newCall = false;
+						if ( (typeof MediaSource !== 'undefined') ) {
+						  var result = window.MediaSource.isTypeSupported( codec );
+						  newCall = true;
+						} else {
+						  var result = testElement.canPlayType( codec )
+						}
+						if ( result === "" ) { result = "no"; } 
+						var output = codec + " : " + result + " - " + newCall + "<br>";
+						$('#codecs').html( $('#codecs').html() + output );
+					  }
+					  function DolbyTest() {
+						// Check for Safari 8, as it will falsely report it can play back Dolby audio
+						var is_safari = false;
+						if ( navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Version/8.0') != -1 ) { 
+							is_safari = true; 
+						}
+						// Add a video element to the page
+						var testEl = document.createElement( "video" );
+						// Run the test
+						if ( testEl.canPlayType && !is_safari ) { 
+							return ( ( 'probably' === testEl.canPlayType('video/mp4;codecs="ec-3"') ) );  // Supports Dolby Audio
+						} else {
+							return false; // Dolby Audio Not Supported
+						}
+					  }
+					  $(document).ready( init );
+				});
+				  
+				  // scan button
+!function(A,I,t){var i;A.properties={width:117,height:125,fps:30,color:"#FFFFFF",manifest:[]},(A.Tween2=function(){this.initialize(),this.shape=new t.Shape,this.shape.graphics.f("#FFFFFF").s().p("Aj4keIHxEeInxEfg"),this.addChild(this.shape)}).prototype=i=new t.Container,i.nominalBounds=new t.Rectangle(-24.9,-28.7,49.9,57.6),(A.Tween1=function(){this.initialize(),this.shape=new t.Shape,this.shape.graphics.f("#FFFFFF").s().p("Aj4keIHxEeInxEfg"),this.addChild(this.shape)}).prototype=i=new t.Container,i.nominalBounds=new t.Rectangle(-24.9,-28.7,49.9,57.6),(A.magnifying_glass=function(){this.initialize(),this.shape=new t.Shape,this.shape.graphics.f("#FFFFFF").s().p("AD5E/Qgzg1g2gzQgdgdgaggIAAgBIAAgJIABgBQACgHADgGIAAAAQgZgagZgXQg7AxhQAAQhdAAhChCQhBhAAAhdQAAhdBBhCQBChCBdAAQBeAAA/BCQBCBCABBdQgBBSgyA6QAYAaAZAYIAAABIANgGIAAgBIAJAAIABAAQA/A3A5A7QAYAZAZAYIAAAHIgCACQgcAcgcAaIgFABIAEABIgMAAgAjajZQgzAzAABIQAABKAzAwQAzA0BKAAQBIAAAyg0QAzgwAAhKQAAhIgzgzQgyg0hIAAQhKAAgzA0g"),this.shape.setTransform(-.1,-.1),this.addChild(this.shape)}).prototype=i=new t.Container,i.nominalBounds=new t.Rectangle(-32.1,-32,64,63.9),(A.circle_bright=function(){this.initialize(),this.shape=new t.Shape,this.shape.graphics.f("#32C7D8").s().p("AmXGYQiqipAAjvQAAjtCqiqQCpipDuAAQDvAACpCpQCqCpAADuQAADviqCpQipCpjvAAQjuAAipipg"),this.addChild(this.shape)}).prototype=i=new t.Container,i.nominalBounds=new t.Rectangle(-57.8,-57.8,115.7,115.6),(A.circle=function(){this.initialize(),this.shape=new t.Shape,this.shape.graphics.f("#128B98").s().p("AmXGYQiqipAAjvQAAjtCqiqQCpipDuAAQDvAACpCpQCqCpAADuQAADviqCpQipCpjvAAQjuAAipipg"),this.addChild(this.shape)}).prototype=i=new t.Container,i.nominalBounds=new t.Rectangle(-57.8,-57.8,115.7,115.6),(A.audio_wave=function(){this.initialize(),this.shape=new t.Shape,this.shape.graphics.f("#32C7D8").s().p("EAo2ACgIAAiWIhAAAIAABzIhAAAIAAhzIhAAAIAAAwIg/AAIAAgwIjHAAIAAAaIhBAAIAAgaIhCAAIAAAwIhAAAIAAgwIhAAAIAACWIhAAAIAAiWIhAAAIAABzIhAAAIAAhzIhAAAIAAAwIhAAAIAAgwIjCAAIAAAaIhAAAIAAgaIhCAAIAAAwIhBAAIAAgwIhAAAIAACWIhAAAIAAiWIhAAAIAABzIhAAAIAAhzIg/AAIAAAwIhAAAIAAgwIjBAAIAAAaIhAAAIAAgaIhCAAIAAAwIhAAAIAAgwIhAAAIAACWIhAAAIAAiWIhAAAIAABzIhAAAIAAhzIhAAAIAAAwIhAAAIAAgwIiGAAIAAAaIhAAAIAAgaIhCAAIAAAwIhBAAIAAgwIhAAAIAACWIhAAAIAAiWIhAAAIAABzIhAAAIAAhzIg/AAIAAAwIhAAAIAAgwIjHAAIAAAaIhBAAIAAgaIhCAAIAAAwIhAAAIAAgwIhAAAIAACWIhAAAIAAiWIhAAAIAABzIhAAAIAAhzIhAAAIAAAwIhAAAIAAgwIjCAAIAAAaIhAAAIAAgaIhDAAIAAAwIhAAAIAAgwIhAAAIAACWIhAAAIAAiWIg/AAIAABzIhAAAIAAhzIhAAAIAAAwIhAAAIAAgwIjBAAIAAAaIhAAAIAAgaIhCAAIAAAwIhAAAIAAgwIhAAAIAACWIhAAAIAAiWIhAAAIAABzIhAAAIAAhzIhAAAIAAAwIhAAAIAAgwIhLAAIAAgTIBLAAIAAgwIBAAAIAAAwIBAAAIAAh0IBAAAIAAB0IBAAAIAAiWIBAAAIAACWIBAAAIAAgwIBAAAIAAAwIBCAAIAAgaIBAAAIAAAaIDBAAIAAgwIBAAAIAAAwIBAAAIAAh0IBAAAIAAB0IA/AAIAAiWIBAAAIAACWIBAAAIAAgwIBAAAIAAAwIBDAAIAAgaIBAAAIAAAaIDCAAIAAgwIBAAAIAAAwIBAAAIAAh0IBAAAIAAB0IBAAAIAAiWIBAAAIAACWIBAAAIAAgwIBAAAIAAAwIBCAAIAAgaIBBAAIAAAaIDHAAIAAgwIBAAAIAAAwIA/AAIAAh0IBAAAIAAB0IBAAAIAAiWIBAAAIAACWIBAAAIAAgwIBBAAIAAAwIBCAAIAAgaIBAAAIAAAaICGAAIAAgwIBAAAIAAAwIBAAAIAAh0IBAAAIAAB0IBAAAIAAiWIBAAAIAACWIBAAAIAAgwIBAAAIAAAwIBCAAIAAgaIBAAAIAAAaIDBAAIAAgwIBAAAIAAAwIA/AAIAAh0IBAAAIAAB0IBAAAIAAiWIBAAAIAACWIBAAAIAAgwIBBAAIAAAwIBCAAIAAgaIBAAAIAAAaIDCAAIAAgwIBAAAIAAAwIBAAAIAAh0IBAAAIAAB0IBAAAIAAiWIBAAAIAACWIBAAAIAAgwIBAAAIAAAwIBCAAIAAgaIBBAAIAAAaIDHAAIAAgwIA/AAIAAAwIBAAAIAAh0IBAAAIAAB0IBAAAIAAiWIBBAAIAACWIBAAAIAAgwIBAAAIAAAwIBBAAIAAgaIBBAAIAAAaICGAAIAAATIiGAAIAAAaIhBAAIAAgaIhBAAIAAAwIhAAAIAAgwIhAAAIAACWg"),this.shape.setTransform(-151.7,0),this.addChild(this.shape)}).prototype=i=new t.Container,i.nominalBounds=new t.Rectangle(-458.9,-16,614.3,32.1),(A.play_button=function(I,i,e){this.initialize(I,i,e,{}),this.frame_0=function(){this.stop()},this.timeline.addTween(t.Tween.get(this).call(this.frame_0).wait(153));var h=new t.Shape;h._off=!0,h.graphics.p("AmZGaQiriqAAjwQAAjvCriqQCqiqDvAAQDwAACqCqQCrCqAADvQAADwirCqQiqCqjwAAQjvAAiqiqg"),this.instance=new A.Tween1("synched",0),this.instance.setTransform(9.5,.6),this.instance_1=new A.Tween2("synched",0),this.instance_1.setTransform(89.5,.6),this.instance.mask=this.instance_1.mask=h,this.timeline.addTween(t.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance}]},3).to({state:[{t:this.instance}]},6).to({state:[{t:this.instance}]},4).to({state:[{t:this.instance_1}]},6).to({state:[]},1).to({state:[{t:this.instance}]},105).to({state:[{t:this.instance}]},6).to({state:[{t:this.instance}]},6).wait(16)),this.timeline.addTween(t.Tween.get(this.instance).wait(3).to({startPosition:0},0).to({x:3},6).to({x:9.5},4).to({_off:!0,x:89.5},6,t.Ease.get(-1)).wait(106).to({_off:!1,x:-85.5},0).to({x:-15.7},6,t.Ease.get(-1)).to({x:9.5},6,t.Ease.get(1)).wait(16)),this.instance_2=new A.magnifying_glass,this.instance_2.setTransform(-88.7,.3),this.instance_2._off=!0,this.instance_2.mask=h,this.timeline.addTween(t.Tween.get(this.instance_2).wait(16).to({_off:!1},0).to({x:-14.6},7,t.Ease.get(-1)).to({x:.3},6,t.Ease.get(1)).to({scaleX:.91,scaleY:.91},5).to({scaleX:1.34,scaleY:1.34,x:11.8,y:12.3},7).wait(50).to({scaleX:1.54,scaleY:1.54},3,t.Ease.get(-1)).wait(4).to({scaleX:1,scaleY:1,x:6.3,y:.3},3,t.Ease.get(-1)).wait(11).to({x:97.3},5,t.Ease.get(-1)).to({_off:!0},1).wait(35));var a=new t.Shape;a._off=!0;var n=(new t.Graphics).p("Ag6DOQhRgZgshAQgigzAChWQAVh7BfgxQAugZBIAEQAgABAaALQBoAoAdBzQAOA2gRA1QghBuhtAjQgeAJggAAQgdAAgggJg"),s=(new t.Graphics).p("AhDDqQhcgcgxhJQgng6AChiQAYiMBsg4QA1gdBSAFQAkACAeALQB2AuAhCDQAQA+gTA8QgmB9h8AoQgjALgjAAQgiAAglgLg"),g=(new t.Graphics).p("AhKECQhlggg2hQQgrg/AChsQAbiaB2g+QA6ggBbAFQAoACAgANQCDAzAkCPQASBFgVBCQgrCKiIAsQgmALgnAAQglAAgpgLg"),w=(new t.Graphics).p("AhMEJQhoggg4hTQgshBAChvQAcifB6hAQA7ggBeAFQApACAhANQCHA1AlCTQASBHgVBEQgsCOiNAtQgmANgoAAQgnAAgqgNg");this.timeline.addTween(t.Tween.get(a).to({graphics:null,x:0,y:0}).wait(38).to({graphics:n,x:-4.5,y:-4.8}).wait(1).to({graphics:s,x:-1.2,y:-.6}).wait(54).to({graphics:g,x:-1.2,y:-.6}).wait(1).to({graphics:w,x:-2.7,y:-2.1}).wait(8).to({graphics:null,x:0,y:0}).wait(51)),this.instance_3=new A.audio_wave,this.instance_3.setTransform(-137.1,.8),this.instance_3.alpha=.199,this.instance_3._off=!0,this.instance_3.mask=a,this.timeline.addTween(t.Tween.get(this.instance_3).wait(38).to({_off:!1},0).to({x:-123.1,alpha:1},4).to({x:137.5},56).to({x:155.4,alpha:0},3).to({_off:!0},1).wait(51)),this.instance_4=new A.circle_bright,this.instance_4._off=!0,this.timeline.addTween(t.Tween.get(this.instance_4).wait(1).to({_off:!1},0).wait(2).to({alpha:0},13).to({_off:!0},1).wait(136)),this.instance_5=new A.circle,this.timeline.addTween(t.Tween.get(this.instance_5).wait(153))}).prototype=i=new t.MovieClip,i.nominalBounds=new t.Rectangle(-57.8,-57.8,115.7,115.6),(A.scan_button_with_code=function(I,i,e){this.initialize(I,i,e,{}),this.frame_0=function(){function A(){this.scan_btn.gotoAndPlay(A+1);var A=this.scan_btn.currentFrame}this.scan_btn.stop(),this.scan_btn.addEventListener("click",A.bind(this))},this.timeline.addTween(t.Tween.get(this).call(this.frame_0).wait(1)),this.scan_btn=new A.play_button,this.scan_btn.setTransform(58.5,61.1),this.timeline.addTween(t.Tween.get(this.scan_btn).wait(1))}).prototype=i=new t.MovieClip,i.nominalBounds=new t.Rectangle(58.9,65.5,116.3,116.2)}(lib=lib||{},images=images||{},createjs=createjs||{});var lib,images,createjs;				  
+				var canvas, stage, exportRoot;
+				function init() {
+					canvas = document.getElementById("canvas");
+					exportRoot = new lib.scan_button_with_code();
+				
+					stage = new createjs.Stage(canvas);
+					stage.addChild(exportRoot);
+					stage.update();
+				
+					createjs.Ticker.setFPS(lib.properties.fps);
+					createjs.Ticker.addEventListener("tick", stage);
+				}
+				init();
+				
+				// scanning
+				$('.startScan').click(function(event) {
+					event.preventDefault();
+					$('#startTest').hide();
+					$('#output').hide();
+					$('#hasSupport').hide();
+					$('#scanning').fadeIn().delay(3500).fadeOut(function(){
+						$('#output').fadeIn();
+						$('#hasSupport').fadeIn();						
+					});
+				});
+
+				-->
+				</script> 
+            </div>
+            <!-- end platform-content --> 
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end platform-wrapper --> 
+  </div>
+  <!-- end get the code --> 
+  
+</div>
+<!--  end tools content -->
+
+</div>
+<!-- end div.wrapper --> 
+
+<!-- begin footer block -->
+<div class="master-footer">
+  <div class="wrapper">
+    <div class="footer-site-map">
+      <section class="ddev">
+        <h2>Dolby Developer</h2>
+        <ul>
+          <li><a href="login.html">Log in</a></li>
+          <li><a href="signup.html">Create a Free Account</a></li>
+          <li><a href="search.html">Search</a></li>
+        </ul>
+        <ul>
+          <li><a href="tools-tech.html">Tools &amp; Tech</a></li>
+          <li><a href="partners.html">Partners</a></li>
+          <li><a href="tour-the-lab.html">Updates</a></li>
+          <li><a href="support.html">Support</a></li>
+          <li><a href="http://blog.dolby.com/">Blog</a></li>
+        </ul>
+      </section>
+      <section class="platforms">
+        <h2>Platforms</h2>
+        <ul>
+          <li><a href="tools-tech.html#kindle">Kindle</a></li>
+          <li><a href="tools-tech.html#android">Android</a></li>
+          <li><a href="tools-tech.html#console">Consoles</a></li>
+          <li><a href="tools-tech.html#windows">Windows</a></li>
+          <li><a href="tools-tech.html#framework">Frameworks</a></li>
+          <li><a href="tools-tech.html#browser">Browser</a></li>
+        </ul>
+      </section>
+      <section class="support">
+        <h2>Support</h2>
+        <ul>
+          <li><a href="support.html#stacko">Stack Overflow</a></li>
+          <li><a href="support.html#faq">FAQ</a></li>
+          <li><a href="support.html#specs">Specs</a></li>
+          <li><a href="support.html#video">Video Resources</a></li>
+          <li><a href="support.html#logos">Logos &amp; Usage</a></li>
+          <li><a href="support.html#contact">Contact Us</a></li>
+        </ul>
+      </section>
+    </div>
+    <div class="site-footer">
+      <div class="nav-block">
+        <div class="dolby"></div>
+        <ul class="customer-service">
+          <li><a href="http://dolby.com">Dolby.com</a></li>
+          <li><a href="terms.html">Terms of Use</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="share-buttons"> 
+          <!-- Buttons start here. Copy this ul to your document. -->
+          <ul class="footer-social">
+            <li class="facebook"> 
+              <!-- Replace with your URL. For best results, make sure you page has the proper FB Open Graph tags in header:
+                                    https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/ --> 
+              <a href="https://www.facebook.com/sharer/sharer.php?u=http://kurtnoble.com/labs/rrssb/index.html" class="popup"> <span class="icon">
+              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="28px" viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve">
+                <path d="M27.825,4.783c0-2.427-2.182-4.608-4.608-4.608H4.783c-2.422,0-4.608,2.182-4.608,4.608v18.434
+                                                    c0,2.427,2.181,4.608,4.608,4.608H14V17.379h-3.379v-4.608H14v-1.795c0-3.089,2.335-5.885,5.192-5.885h3.718v4.608h-3.726
+                                                    c-0.408,0-0.884,0.492-0.884,1.236v1.836h4.609v4.608h-4.609v10.446h4.916c2.422,0,4.608-2.188,4.608-4.608V4.783z"/>
+              </svg>
+              </span> <em></em><span class="text">facebook<i></i></span> </a> </li>
+            <li class="twitter"> 
+              <!-- Replace href with your Meta and URL information  --> 
+              <a href="http://twitter.com/home?status=Ridiculously%20Responsive%20Social%20Sharing%20Buttons%20by%20@joshuatuscan%20and%20@dbox%20http://kurtnoble.com/labs/rrssb" class="popup"> <span class="icon">
+              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                 width="28px" height="28px" viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve">
+                <path d="M24.253,8.756C24.689,17.08,18.297,24.182,9.97,24.62c-3.122,0.162-6.219-0.646-8.861-2.32
+                                                c2.703,0.179,5.376-0.648,7.508-2.321c-2.072-0.247-3.818-1.661-4.489-3.638c0.801,0.128,1.62,0.076,2.399-0.155
+                                                C4.045,15.72,2.215,13.6,2.115,11.077c0.688,0.275,1.426,0.407,2.168,0.386c-2.135-1.65-2.729-4.621-1.394-6.965
+                                                C5.575,7.816,9.54,9.84,13.803,10.071c-0.842-2.739,0.694-5.64,3.434-6.482c2.018-0.623,4.212,0.044,5.546,1.683
+                                                c1.186-0.213,2.318-0.662,3.329-1.317c-0.385,1.256-1.247,2.312-2.399,2.942c1.048-0.106,2.069-0.394,3.019-0.851
+                                                C26.275,7.229,25.39,8.196,24.253,8.756z"/>
+              </svg>
+              </span> <em></em><span class="text">twitter<i></i></span> </a> </li>
+            <li class="linkedin"> 
+              <!-- Replace href with your meta and URL information --> 
+              <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://kurtnoble.com/labs/rrssb/index.html&amp;title=Ridiculously%20Responsive%20Social%20Sharing%20Buttons&amp;summary=Responsive%20social%20icons%20by%20KNI%20Labs" class="popup"> <span class="icon">
+              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="28px" viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve">
+                <path d="M25.424,15.887v8.447h-4.896v-7.882c0-1.979-0.709-3.331-2.48-3.331c-1.354,0-2.158,0.911-2.514,1.803
+                                                    c-0.129,0.315-0.162,0.753-0.162,1.194v8.216h-4.899c0,0,0.066-13.349,0-14.731h4.899v2.088c-0.01,0.016-0.023,0.032-0.033,0.048
+                                                    h0.033V11.69c0.65-1.002,1.812-2.435,4.414-2.435C23.008,9.254,25.424,11.361,25.424,15.887z M5.348,2.501
+                                                    c-1.676,0-2.772,1.092-2.772,2.539c0,1.421,1.066,2.538,2.717,2.546h0.032c1.709,0,2.771-1.132,2.771-2.546
+                                                    C8.054,3.593,7.019,2.501,5.343,2.501H5.348z M2.867,24.334h4.897V9.603H2.867V24.334z"/>
+              </svg>
+              </span> <em></em><span class="text">linkedin<i></i></span> </a> </li>
+            <li class="youtube"> <a href="#"> <span class="icon">
+              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="28px" viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve">
+                <path d="M27.688,8.512c0-2.268-1.825-4.093-4.106-4.093H4.389c-2.245,0-4.076,1.825-4.076,4.093v10.976 c0,2.268,1.825,4.093,4.076,4.093h19.192c2.274,0,4.106-1.825,4.106-4.093V8.512z M11.263,18.632V8.321l7.817,5.155L11.263,18.632z" />
+              </svg>
+              </span> <em></em><span class="text">youtube<i></i></span> </a> </li>
+            <li class="vimeo"> <a href="#"> <span class="icon">
+              <svg enable-background="new 0 0 56.693 56.693" height="56.693px" id="Layer_1" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path d="M3.602,22.974l2.01,2.636c0,0,4.146-3.267,5.528-1.634c1.382,1.634,6.656,21.357,8.417,24.997  c1.537,3.192,5.777,7.413,10.426,4.397c4.646-3.014,20.098-16.205,22.863-31.781c2.764-15.574-18.594-12.313-20.854,1.256  c5.652-3.395,8.671,1.38,5.778,6.784c-2.889,5.399-5.527,8.921-6.908,8.921c-1.379,0-2.441-3.612-4.021-9.928  c-1.635-6.53-1.624-18.291-8.416-16.958C12.019,12.921,3.602,22.974,3.602,22.974z"/>
+              </svg>
+              </svg>
+              </span> <em></em><span class="text">vimeo<i></i></span> </a> </li>
+          </ul>
+          <!-- Buttons end here --> 
+        </div>
+        <span class="copyright">Dolby and the double-D symbol are registered trademarks of Dolby Laboratories. All other trademarks remain the property of their respective owners. &copy; 2013 Dolby Laboratories, Inc. All rights reserved.</span> </div>
+    </div>
+  </div>
+</div>
+<!-- end footer block --> 
+
+<!-- add site scripts here --> 
+<script src="dist/vendor.min.js"></script> 
+<!-- <script src="js/vendor/headroom.min.js"></script> --> 
+<script src="dist/dolby.min.js"></script> 
+
+<!-- <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script> -->
+</body>
+</html>
